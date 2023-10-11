@@ -1,0 +1,8 @@
+[source, mermaid]
+----
+graph TD
+    A[Create Scene] --> B[Update Scene]
+    B --> C[Update Entities]
+    C --> A
+    C --> D[Scene Create Requests]
+----
